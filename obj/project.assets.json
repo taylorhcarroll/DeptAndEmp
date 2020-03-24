@@ -4977,11 +4977,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Taylor\\source\\repos\\DeptAndEmployees\\DeptAndEmployees\\DeptAndEmployees.csproj",
+      "projectUniqueName": "C:\\Users\\Taylor\\Workspace\\DeptAndEmployees\\DeptAndEmployees.csproj",
       "projectName": "DeptAndEmployees",
-      "projectPath": "C:\\Users\\Taylor\\source\\repos\\DeptAndEmployees\\DeptAndEmployees\\DeptAndEmployees.csproj",
+      "projectPath": "C:\\Users\\Taylor\\Workspace\\DeptAndEmployees\\DeptAndEmployees.csproj",
       "packagesPath": "C:\\Users\\Taylor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Taylor\\source\\repos\\DeptAndEmployees\\DeptAndEmployees\\obj\\",
+      "outputPath": "C:\\Users\\Taylor\\Workspace\\DeptAndEmployees\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Taylor\\AppData\\Roaming\\NuGet\\NuGet.Config",
