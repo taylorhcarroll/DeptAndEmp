@@ -4972,19 +4972,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Taylor\\.nuget\\packages\\": {}
+    "C:\\Users\\Holden\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Taylor\\Workspace\\DeptAndEmployees\\DeptAndEmployees.csproj",
-      "projectName": "DeptAndEmployees",
-      "projectPath": "C:\\Users\\Taylor\\Workspace\\DeptAndEmployees\\DeptAndEmployees.csproj",
-      "packagesPath": "C:\\Users\\Taylor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Taylor\\Workspace\\DeptAndEmployees\\obj\\",
+      "projectUniqueName": "C:\\Users\\Holden\\workspace\\SQL\\DepartmentsEmployees\\DepartmentsEmployees\\DepartmentsEmployees.csproj",
+      "projectName": "DepartmentsEmployees",
+      "projectPath": "C:\\Users\\Holden\\workspace\\SQL\\DepartmentsEmployees\\DepartmentsEmployees\\DepartmentsEmployees.csproj",
+      "packagesPath": "C:\\Users\\Holden\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Holden\\workspace\\SQL\\DepartmentsEmployees\\DepartmentsEmployees\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Taylor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Holden\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

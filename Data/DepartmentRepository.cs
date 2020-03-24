@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 using Microsoft.Data.SqlClient;
-using DepartmentsEmployeesConsole.Models;
+using DepartmentsEmployees.Models;
 
 namespace DepartmentsEmployees.Data
 {
@@ -23,6 +25,7 @@ namespace DepartmentsEmployees.Data
                 return new SqlConnection(_connectionString);
             }
         }
+
         /// <summary>
         ///  Returns a list of all departments in the database
         /// </summary>
@@ -83,6 +86,7 @@ namespace DepartmentsEmployees.Data
                 }
             }
         }
+
         /// <summary>
         ///  Returns a single department with the given id.
         /// </summary>
@@ -115,6 +119,7 @@ namespace DepartmentsEmployees.Data
                 }
             }
         }
+
         /// <summary>
         ///  Add a new department to the database
         ///   NOTE: This method sends data to the database,
@@ -122,7 +127,7 @@ namespace DepartmentsEmployees.Data
         /// </summary>
         public void AddDepartment(Department department)
         {
-            using (SqlConnection conn = Connection)
+            using (SqlConnection conn = Connection) 
             {
                 conn.Open();
                 using (SqlCommand cmd = conn.CreateCommand())
@@ -139,6 +144,7 @@ namespace DepartmentsEmployees.Data
 
             // when this method is finished we can look in the database and see the new department.
         }
+
         /// <summary>
         ///  Updates the department with the given id
         /// </summary>
@@ -159,6 +165,7 @@ namespace DepartmentsEmployees.Data
                 }
             }
         }
+
         /// <summary>
         ///  Delete the department with the given id
         /// </summary>
